@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1084618491935",
+    "firebase_url": "https://takehomeassignment09-dadriaunn.firebaseio.com",
+    "project_id": "takehomeassignment09-dadriaunn",
+    "storage_bucket": "takehomeassignment09-dadriaunn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084618491935:android:393257a469b78239",
+        "android_client_info": {
+          "package_name": "com.example.dadriaunna01.takehomeassignment09_dadriaunnaw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084618491935-76kajn3o1849nvnlt4p4rb58o3u82p8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD44ahFDDiDZNPrNrxBg1RXTCp3Hj0HvJc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
