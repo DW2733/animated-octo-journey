@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+
 public class SecondActivity extends AppCompatActivity {
 
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -35,7 +39,7 @@ public class SecondActivity extends AppCompatActivity {
         int finalTileScore = Integer.parseInt(newTileScore);
         boolean celebration = fridayCelebration.isChecked();
 
-        culture.push().setValue(advisoryName, finalTileScore, celebration);
+        culture.push().setValue(advisoryName, celebration, finalTileScore);
 
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
